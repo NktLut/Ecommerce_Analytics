@@ -4,11 +4,11 @@ import pandas as pd
 def scorer(param, param_name, quantiles):
     """    
     Parameters:
-        param      - pd.Series element
-        param_name - name of pd.Series
+        param      - pd.Series contains RFM metric
+        param_name - name of RFM metric  
         quantiles  - dict with R, F and M splits
     Returns:
-        Resulting score for passed param, depending on param_name
+        Score for passed metric, depending on metric name
         
     """
     
@@ -39,10 +39,10 @@ def scorer(param, param_name, quantiles):
 def segmenter(s, segments):
     """
     Parameters:
-        s        - element from rfm_score pd.Series
-        segments - pd.DataFrame with split codes and description
+        s        - RFM-score
+        segments - pd.DataFrame with split codes and descriptions
     Returns:
-        segment description or '000' if r, f or m score don't belong to expected range    
+        segment description or '000' if R, F or M score don't belong to expected range    
     """
     
     desc = ''        
