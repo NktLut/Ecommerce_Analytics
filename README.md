@@ -1,1 +1,1 @@
-# KC_project_1_e-commerce
+# Data preprocessing, sales metrics research, RFM analysis, cohort analysis
