@@ -1,1 +1,2 @@
-# Data preprocessing, sales metrics research, RFM analysis, cohort analysis
+# e-commerce 
+Data preprocessing, sales metrics research, RFM analysis, cohort analysis
